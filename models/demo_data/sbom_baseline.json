@@ -1,0 +1,77 @@
+{
+  "components": [
+    {
+      "bom-ref": "339177b0-44ec-4302-86e7-b42943415f9e",
+      "name": "stable-lib",
+      "version": "1.0.0",
+      "type": "library",
+      "description": "Risk: LOW | Framework: PyTorch | Legal: UNKNOWN | License: MIT"
+    },
+    {
+      "bom-ref": "ca023359-44c4-4e0e-93b7-9d53cb1f0003",
+      "name": "stable-model.pt",
+      "version": "v1",
+      "type": "machine-learning-model",
+      "description": "Risk: LOW | Framework: PyTorch | Legal: UNKNOWN | License: MIT",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e489693ca3e592ecb9cd64a2aa32659150e3df9a1a2ae8b68b5c3a34f2d8d3bf"
+        }
+      ]
+    },
+    {
+      "bom-ref": "e70f73ac-3524-4298-bc70-a88aec9d6dba",
+      "name": "drift-risk.pt",
+      "version": "v1",
+      "type": "machine-learning-model",
+      "description": "Risk: LOW | Framework: PyTorch | Legal: UNKNOWN | License: MIT",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "29e2b5654b054b2782ae9651156eba66d47ac67574bfb3f7769e1e687cae4619"
+        }
+      ]
+    },
+    {
+      "bom-ref": "17a9cb2d-dd35-4580-814c-075c7f09eab9",
+      "name": "drift-license.pt",
+      "version": "v1",
+      "type": "machine-learning-model",
+      "description": "Risk: LOW | Framework: PyTorch | Legal: UNKNOWN | License: MIT",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4a65ef671f7c651639a863de588d525312aeb399d9c92d29cf697a447248ac71"
+        }
+      ]
+    },
+    {
+      "bom-ref": "9b094343-679a-4c61-b8ec-530b468fbe52",
+      "name": "drift-ver-lib",
+      "version": "1.0.0",
+      "type": "library",
+      "description": "Risk: LOW | Framework: PyTorch | Legal: UNKNOWN | License: MIT"
+    },
+    {
+      "bom-ref": "3edcc6cd-e54b-4913-b9d4-8bd037fb74e5",
+      "name": "drift-hash.pt",
+      "version": "v1",
+      "type": "machine-learning-model",
+      "description": "Risk: LOW | Framework: PyTorch | Legal: UNKNOWN | License: MIT",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b288f43974680cec81833d3ba07917af0463b9dd57b27fbe313a7b435750b36e"
+        }
+      ]
+    },
+    {
+      "bom-ref": "65f2a3e7-8fd5-412c-aebd-36bcfc1c0b35",
+      "name": "removed-lib",
+      "version": "0.9.0",
+      "type": "library",
+      "description": "Risk: LOW | Framework: PyTorch | Legal: UNKNOWN | License: MIT"
+    }
+  ]
+}

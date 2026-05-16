@@ -1,0 +1,19 @@
+name: AIsbom Security Scan
+on:
+  pull_request:
+    paths:
+      - 'models/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  aisbom:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: Lab700xOrg/aisbom@v1
+        with:
+          directory: models/
