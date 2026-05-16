@@ -1,8 +1,8 @@
 name: AIsbom Security Scan
+# E2E sandbox — fire on every PR so we always exercise the Action.
+# In a real consumer repo you'd add `paths: ['models/**']` to scope this.
 on:
   pull_request:
-    paths:
-      - 'models/**'
   workflow_dispatch:
 
 permissions:
